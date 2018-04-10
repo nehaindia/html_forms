@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Browse Page</title>
+<h1> Choose Storage </h1>
+</head>
+<body bgcolor="#E6E6FA">
+
+
+<form method="post" enctype="multipart/form-data">
+  <div>
+  
+ <input type="radio" name="store" value="S3" checked> S3<br>
+  <input type="radio" name="store" value="EFS"> EFS<br>
+  <input type="radio" name="store" value="Storage Gateway"> Storage Gateway<br>
+<input type="radio" name="store" value="Glacier"> Glacier<br>
+<br>
+<br>
+<br>
+<input type="file" id="browse music" name="songs"
+          accept=".mpeg">
+  </div>
+  <div>
+    <button>Submit</button>
+  </div>
+</form>
+
+</html>
